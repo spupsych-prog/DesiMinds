@@ -1,0 +1,139 @@
+---
+layout: default
+title: Culturally Sensitive Mental Health Support
+---
+
+<section class="hero">
+  <h1>Culturally Sensitive Mental Health Support for Indians Living Abroad</h1>
+  <p>I’m Purva Sreekanth, a mental health professional offering personalized guidance for Indians navigating life overseas—because your cultural context matters.</p>
+  <a href="#contact" class="btn-primary">Book a Session</a>
+</section>
+
+<section class="intro">
+  <p>You don’t have to explain why family expectations matter or why guilt sometimes overshadows self-care. I know your story because I share your culture. I’m here to help you write the next chapter—on your terms.</p>
+  <p>Why struggle to find mental health support in a system that doesn’t understand your background? I bring you care from India that is designed to fit your time zone, your budget, and your cultural comfort zone.</p>
+</section>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>Living in a new country can be exciting, but it often comes with emotional challenges—stress, loneliness, cultural adjustment, relationship changes, and even identity struggles.</p>
+  <p>Many of my clients are Indian students, working professionals, and families abroad who find that conventional support systems or local therapy models do not fully understand their values and lived experiences.</p>
+  <ul>
+    <li>✔ Adjustment and cultural transition stress</li>
+    <li>✔ Relationship and family challenges</li>
+    <li>✔ Anxiety, mood-related struggles, and confidence issues</li>
+    <li>✔ Personal growth and coping strategies during life transitions</li>
+  </ul>
+</section>
+
+<section class="why">
+  <h2>Why Clients Choose This Service</h2>
+  <ul>
+    <li>✔ You won’t have to explain your culture or values—I already understand them.</li>
+    <li>✔ Flexible timing for international clients across time zones.</li>
+    <li>✔ Practical, actionable strategies for real-life challenges.</li>
+    <li>✔ Completely confidential and non-judgmental space.</li>
+  </ul>
+</section>
+
+<section class="testimonials">
+  <h2>What Clients Say</h2>
+  <blockquote>“Purva really helped me with my mental health concerns. Her communication is clear, motivating, and empathetic.”</blockquote>
+  <blockquote>“I was going through a difficult divorce. Purva helped me regain confidence and move forward without depending on others for happiness.”</blockquote>
+  <blockquote>“Therapy with Purva improved my thought process and emotional regulation.”</blockquote>
+  <blockquote>“Purva taught me practical tools to manage anxiety while adjusting to a new environment.”</blockquote>
+</section>
+
+<section id="contact" class="cta">
+  <h2>Start Your Journey Today</h2>
+  <p>If you’re an Indian living abroad and want a space that understands your cultural and emotional world, I’m here to help. Let’s start your journey toward well-being together.</p>
+  <a href="mailto:your-email@example.com" class="btn-primary">Book a Session</a>
+</section>
+
+title: "Mental Health Support for Indians Abroad"
+description: "Culturally sensitive therapy and guidance for Indians living overseas."
+theme: minima
+url: "" # Will be auto-set by GitHub Pages
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>© {{ site.time | date: '%Y' }} Purva Sreekanth. For well-being support only. Not a substitute for psychiatric or emergency care.</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #f3efe9;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #4b3832;
+}
+
+.hero {
+  text-align: center;
+  background: #f8f4f1;
+  padding: 3rem 1rem;
+}
+
+.hero .btn-primary {
+  background: #a44a3f;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+blockquote {
+  background: #f8f8f8;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #a44a3f;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f3efe9;
+  font-size: 0.9rem;
+}
+
+.
+├── _config.yml
+├── _layouts/
+│   └── default.html
+├── assets/
+│   └── css/
+│       └── style.css
+└── index.md
