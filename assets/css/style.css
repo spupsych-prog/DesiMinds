@@ -1,9 +1,9 @@
-/* Hamburger icon */
+/* Hamburger menu button always visible */
 #menu-toggle {
+  display: block !important;
   background: none;
   border: none;
   cursor: pointer;
-  display: none;
   width: 30px;
   height: 25px;
   position: relative;
@@ -37,58 +37,57 @@
   top: 10px;
 }
 
-/* Show hamburger only on smaller screens */
-@media screen and (max-width: 768px) {
-  #menu-toggle {
-    display: block;
-  }
-
-  .site-nav {
-    display: none;
-    width: 100%;
-    background: white;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
-  }
-
-  .site-nav.is-open {
-    display: block;
-  }
-
-  .nav {
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-
-  .nav-item {
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .nav-item a {
-    color: #004aad;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .nav-item a:hover,
-  .nav-item a:focus {
-    text-decoration: underline;
-  }
+/* Navigation menu initially hidden */
+.site-nav {
+  display: none;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+  z-index: 9998;
 }
 
-/* Desktop nav styles */
+/* Show menu when toggled */
+.site-nav.is-open {
+  display: block;
+}
+
+/* Navigation list styling */
+.nav {
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-item a {
+  color: #004aad;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  text-decoration: underline;
+}
+
+/* Desktop nav styles: show nav inline */
 @media screen and (min-width: 769px) {
   .site-nav {
-    display: block !important;
+    display: flex !important;
+    position: static;
+    box-shadow: none;
   }
 
   .nav {
-    display: flex;
+    flex-direction: row;
     gap: 1.5rem;
   }
 
