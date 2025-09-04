@@ -1,4 +1,6 @@
-title: "Mental Health Support for Indians Abroad"
-description: "Culturally sensitive therapy and guidance for Indians living overseas."
-theme: minima
-url: ""
+title: Desi Minds
+description: Culturally Sensitive Mental Health Support for Indians Living Abroad
+remote_theme: jekyll/minima
+header_pages:
+  - index.md
+  - about.md
