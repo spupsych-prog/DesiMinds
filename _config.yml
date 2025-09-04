@@ -1,6 +1,6 @@
 title: Desi Minds
 description: Culturally Sensitive Mental Health Support for Indians Living Abroad
-remote_theme: jekyll/minima
+theme: minima
 header_pages:
   - index.md
   - about.md
